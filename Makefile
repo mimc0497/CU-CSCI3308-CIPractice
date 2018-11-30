@@ -1,6 +1,3 @@
-# Andy Sayler
-# CI Practice
-# Summer 2014
 
 CC = gcc
 CFLAGS = -c -g -Wall -Wextra
@@ -9,7 +6,10 @@ LFLAGS = -g -Wall -Wextra
 PKG_MATH_LIBS = -lm
 PKG_CHECK_LIBS = `pkg-config --libs check`
 
-.PHONY: all dep clean
+.PHONY: all dep clean test
+
+test: geometry_test
+	./geometry_test
 
 all: geometry_test
 
