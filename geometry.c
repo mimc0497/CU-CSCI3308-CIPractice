@@ -69,7 +69,6 @@ void coord_2d_midpoint(coord_2d_t* mid, const coord_2d_t* a, const coord_2d_t* b
     mid->y = ((a->y + b->y) / 2.0 );
 
 }
-<<<<<<< HEAD
 
 double coord_2d_area_triangle(const coord_2d_t* a, const coord_2d_t* b, const coord_2d_t* c){
 	if(!a){
@@ -91,5 +90,3 @@ double coord_2d_area_triangle(const coord_2d_t* a, const coord_2d_t* b, const co
     }
     return area;
 }
-=======
->>>>>>> 5d5ad05860de554ae70e07a1d6b68a44cba347f1

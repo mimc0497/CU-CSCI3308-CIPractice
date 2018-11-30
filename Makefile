@@ -1,9 +1,7 @@
-<<<<<<< HEAD
+
 # Andy Sayler
 # CI Practice
 # Summer 2014
-=======
->>>>>>> 5d5ad05860de554ae70e07a1d6b68a44cba347f1
 
 CC = gcc
 CFLAGS = -c -g -Wall -Wextra
